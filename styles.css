@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Prompt:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Reem+Kufi:wght@400;500;600&display=swap');
 html {
     scroll-behavior: smooth;
   }
 body{
     background-color: #E95793;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    color: rgb(29, 9, 9);
+    font-family: 'Bubblegum Sans', sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -29,12 +31,7 @@ transition: all 1.5s;
 
 translate: translate(0,0);
 }
-p{
-    font-size: 1.5rem;
-    text-align: center;
-    max-width: 80vw;
-    color: #610C9F;
-}
+
 @media(prefers-reduced-motion){
     .hidden{
         transition: none;
@@ -44,28 +41,13 @@ p{
     display: none;
 }
 
-button {
-    font-size: 3rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
-    cursor: pointer;
-    border-radius: 1rem;
-    border: 0;
-    background: #940B92;
-    color: white;
-}
-.heart {
-  display: inline-block;
-  width: 2rem;
-  margin: 0.25rem;
-  aspect-ratio: 1;
-  border-image: radial-gradient(red 69%, #0000 70%) 84.5%/50%;
-  clip-path: polygon(-41% 0, 50% 91%, 141% 0);
-}
-.heart-holder{
-    display: flex;
-    flex-direction: row;
-}
+
 h1{
-    color: red;
+    color: rgb(29, 9, 9);
+    font-size: 2rem;
+    text-align: center;
+}
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
 }
